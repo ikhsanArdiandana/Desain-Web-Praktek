@@ -1,0 +1,185 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif"
+}
+body{
+	background-color: #DDDDDD;
+}
+#wrapper{
+	width: 950px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#header{
+	background-image: url(img/2.jpg);
+	height: 200px;
+	width: 100%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin: 20px 0;
+	overflow: hidden;
+	border-radius: 5px;
+}
+#header img{
+	width: 160px ; 
+	height: 140px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+
+#menu-utama{
+	margin-top: 3px;
+	list-style: none;
+}
+
+#menu-utama li{
+	float: left;
+	padding: 8px 20px;
+	border-right: 1px solid #555555;
+}
+
+#menu-utama li a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#header form{
+	float: right;
+	margin-top: 0;
+	margin-right: 15px;
+	
+}
+
+#header form input{
+	border: none;
+	height: 10px;
+	border-radius: 5px;
+	
+}
+
+#daftar-artikel{
+	width: 600px;
+	float: left;
+}
+
+#detail-artikel1{
+	width: 100%;
+	float: left;
+}
+
+.artikel{
+	background: rgba(99, 99, 99, 0.51);
+	padding: 10px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	border-radius: 6px;
+	
+}
+
+.artikel img{
+	float: left;
+	margin-right: 10px;
+	width: 200px;
+	height: 165px;
+	border-radius: 6px;
+}
+
+.artikel b{
+	color: #616060;
+	background: #DDDDDD;
+	padding: 3px;
+	font-size: 12px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.artikel p{
+	margin: 10px 0;
+	text-align: justify;
+}
+
+.artikel ul{
+	padding-left: 35px;
+}
+
+.artikel a{
+	display: block;
+	text-align: right;
+	color: #636363;
+}
+
+#sidebar{
+	width: 270px;
+	float: right;
+}
+
+#sidebar h2{
+	font-size: 18px;
+	margin: 10px 0;
+
+}
+
+#sidebar p{
+	line-height: 20px;
+	color: #636363;
+	text-align: justify;
+}
+
+#sidebar ul li a{
+	color: #636363;
+	text-decoration: none;
+}
+
+#footer{
+	clear: both;
+	margin: 20px 0;
+	text-align: center;
+	background-color: #f0f0f0;
+	padding: 5px;
+	color: #555555;
+}
+
+.contact{
+	display: grid;
+}
+
+#myform{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+}
+
+.full-width{
+	grid-column: 1/2;
+}
+
+.contact label{
+	display: block;
+}
+
+.contact p{
+	margin: 0;
+}
+
+.contact button,input, textarea{
+	padding: 1em;
+}
+
+button{
+	background: lightgrey;
+	width: 100%;
+	border: 0;
+}
+
+input:focus,textarea:focus{
+	outline: 3px solid gold;
+}
+
+.inptext{
+    border-radius: 5px;
+    height: 9px;
+    text-align: center;
+}
